@@ -24,11 +24,6 @@ export default function App() {
     { name: 'Shoulder', image: require('./assets/pictures/shoulder.jpg') },
   ];
 
-  const x = './assets/pictures/chest.jpg';
-  const y = bodyParts[0].image;
-  console.log({ x });
-  console.log({ b: bodyParts[0].image });
-  console.log(x === y);
   return (
     <View style={styles.container}>
       <StatusBar />
